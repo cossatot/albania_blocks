@@ -8,7 +8,7 @@ using PyPlot
 albania_block_file = "../block_data/albania_blocks.geojson"
 
 
-daug_vels_file = "/home/itchy/research/geodesy/global_block_comps/eur_blocks/strain_data/daugostino_vels.geojson"
+daug_vels_file = "../geod_data/daugostino_vels.geojson"
 gsrm_vels_file = "../geod_data/gps_eur.geojson"
 
 block_df = Oiler.IO.gis_vec_file_to_df(albania_block_file)
